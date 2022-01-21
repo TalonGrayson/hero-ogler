@@ -1,8 +1,5 @@
 @echo off
 
-set hc_path=C:\City of Heroes\Homecoming
-
-
 :set_hc_path
 cls
 set /p hc_path="Homecoming installation path (e.g. C:\Games\Homecoming): "
@@ -12,7 +9,6 @@ echo %hc_path%
 echo Are you sure that's the correct path? (y/n)
 set /p continue=""
 
-if %continue%==s goto :instructions
 if %continue%==n goto :set_hc_path
 
 :store_hc_path
@@ -35,13 +31,6 @@ echo f | xcopy /f /y "C:\Program Files\GLInterceptx64_1_3_4\OpenGL32.dll" "%hc_p
 echo f | xcopy /f /y "files\custom\gliConfig.ini" "%hc_path%\bin\win64\live\gliConfig.ini"
 
 echo Installation complete!
-pause
-
-:instructions
-cls
-echo *** HOW TO GUIDE ***
-echo -- stuff goes here --
-echo.
 set /p launch="Launch Homecoming with capture enabled now? (y/n): "
 
 if %launch%==n goto :exit
@@ -54,4 +43,3 @@ launchercli.exe launch live -useTexEnvCombine
 
 :exit
 echo Window will now close . . .
-pause
