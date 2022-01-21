@@ -14,8 +14,6 @@ if %continue%==n goto :set_hc_path
 :store_hc_path
 echo %hc_path%> files\hc_path.ini
 
-goto :launch
-
 :confirm_install
 echo Ready to install . . .
 echo Close this window to cancel . . .
