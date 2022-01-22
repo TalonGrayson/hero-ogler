@@ -12,4 +12,6 @@ if exist "OpenGL32.dll.off" (
 
 cd /D "%hc_path%\bin\win64\"
 
-launchercli.exe launch live -useTexEnvCombine
+SET batpath=%~dp0
+
+launchercli.exe launch live -useTexEnvCombine -exitlaunch %batpath%\OpenGLoff.bat
