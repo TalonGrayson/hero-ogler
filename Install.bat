@@ -1,8 +1,9 @@
 @echo off
 
-if exist "C:\Games\Homecoming\" (
-    echo "It appears you have Homecoming installed in the default location of C:\Games\Homecoming"
-    set hc_path= C:\Games\Homecoming
+set /p hc_path=< files\hc_path.ini
+
+if exist "%hc_path%" (
+    echo "It appears you have Homecoming installed in the default location of %hc_path%%"
     goto :confirm_path
 ) else (
     goto :set_hc_path
@@ -11,10 +12,11 @@ if exist "C:\Games\Homecoming\" (
 
 :set_hc_path
 cls
-set /p hc_path="Please type/copy and paste the full Homecoming installation path wihtout a trailing \. (e.g. C:\Games\Homecoming): "
+set /p hc_path="Please type/copy and paste the full Homecoming installation path without a trailing \. (e.g. %hc_path%): "
 
 :confirm_path
-echo %hc_path%
+cls
+echo You have set your Homecoming installation path to: %hc_path%
 echo Are you sure that's the correct path? (y/n)
 set /p continue=""
 
