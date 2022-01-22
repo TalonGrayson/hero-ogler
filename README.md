@@ -9,8 +9,9 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 
 ### How to Use
 - Extract the zip into a convenient folder. It doesn't really matter where.
-- Run Install.bat and follow the prompts
-- When you want to capture something, run Launch.bat
+- Run HeroOgler.bat - you'll need to run this as an administrator the first time (or any time you need to install GLIntercept). This is because the batch file creates an OGLE folder in the appropriate place.
+- Once everything is installed, if you want to capture something, just run HeroOgler.bat
+- If HeroOgler detects an issue with your OGLE setup, it will try to fix it.
 - Once you're in the game, use Shift + Ctrl + L to capture the frame
 
 ### Additional
