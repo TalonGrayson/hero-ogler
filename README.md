@@ -13,6 +13,7 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 - Once everything is installed, if you want to capture something, just run HeroOgler.bat
 - If HeroOgler detects an issue with your OGLE setup, it will try to fix it.
 - Once you're in the game, use Shift + Ctrl + L to capture the frame
+- You'll find `ogle.obj` in your Homecoming root folder
 
 ### For the Brave
 Feel free to tweak the `gliConfig.ini` file in `[your Homecoming folder]\bin\win64\live`. If things stop working, you can just delete it. Next time you run HeroOgler, the default `gliConfig.ini` will be reinstated.
@@ -21,6 +22,9 @@ The main thing you're likely to want to change (depending on your keybinds) is t
 
 ### Additional
 You can create a shortcut to HeroOgler.bat and put it somewhere convenient, but please don't change the file structure within the HeroOgler folder, as that will break things.
+
+
+When you launch the game with HeroOgler, it enables OGLE, and when the client closes, it disables OGLE. If you ever find your game is crashing unexpectedly, check `[your Homecoming folder]\bin\win64\live` for a file called `OpenGL32.dll`. If it exists, you can rename it `OpenGL32.dll.off`, or run `HeroOgler\lib\bats\disable_ogle.bat`
 
 ### Many thanks to the following:
 
