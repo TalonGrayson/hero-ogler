@@ -17,7 +17,7 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 ### For the Brave
 Feel free to tweak the `gliConfig.ini` file in `[your Homecoming folder]\bin\win64\live`. If things stop working, you can just delete it. Next time you run HeroOgler, the default `gliConfig.ini` will be reinstated.
 
-The main thing you're likely to want to change (depending on your keybinds) is the capture keybind. This appears on (line 103 of the `gliConfig.ini`)[https://github.com/TalonGrayson/hero-ogler/blob/main/lib/files/custom/gliConfig.ini#L103].
+The main thing you're likely to want to change (depending on your keybinds) is the capture keybind. This appears on line 103 of the `gliConfig.ini`.
 
 ### Additional
 You can create a shortcut to Launch.bat and put it somewhere convenient, but please don't change the file structure within the HeroOgler folder, as that will break things.
