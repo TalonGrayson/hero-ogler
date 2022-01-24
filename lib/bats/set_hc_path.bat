@@ -1,6 +1,6 @@
 @echo off
 
-set /p default_path=< %~dp0..\files\default_path.ini
+set /p default_path=<" %hero_ogler_path%\lib\files\paths\default_path.ini"
 
 if exist "%default_path%" (
     echo It appears you have Homecoming installed in the default location of %default_path%
@@ -23,4 +23,4 @@ set /p continue=""
 if not %continue%==y goto :set_hc_path
 
 :store_hc_path
-echo %hc_path%> %~dp0..\files\hc_path.ini
+echo %hc_path%> "%hero_ogler_path%\lib\files\paths\hc_path.ini"
