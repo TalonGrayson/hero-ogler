@@ -8,11 +8,11 @@ You can use this to capture a model of your toon, of scenery, or of anything els
 Once captured, the .obj file can be imported into your 3D modelling software of choice and fixed up, ready for 3D printing, rigging/animation, etc.
 
 ### How to Use
-- Extract the zip into a convenient folder. It doesn't really matter where, so long as the file path has no spaces (e.g. `C:\City Of Heroes\HeroOgler` will not work, but `C:\CityOfHeroes\HeroOgler` will work).
-- Run HeroOgler.bat - you'll need to run this as an administrator the first time (or any time you need to install GLIntercept). This is because the batch file creates an OGLE folder in the appropriate place.
-- Once everything is installed, if you want to capture something, just run HeroOgler.bat
+- Extract the zip into a convenient folder. It doesn't really matter where, **so long as the file path has no spaces** (e.g. `C:\City Of Heroes\HeroOgler` will not work, but `C:\CityOfHeroes\HeroOgler` will work).
+- Run HeroOgler.bat - **you'll need to run this as an administrator the first time** (or any time you need to install GLIntercept). This is because the batch file creates an OGLE folder in the appropriate place.
+- Once everything is installed, if you want to capture something, just run `HeroOgler.bat`
 - If HeroOgler detects an issue with your OGLE setup, it will try to fix it.
-- Once you're in the game, use Shift + Ctrl + L to capture the frame
+- Once you're in the game, use **Shift + Ctrl + L** to capture the frame
 - You'll find `ogle.obj` in your Homecoming root folder
 
 ### For the Brave
@@ -21,7 +21,7 @@ Feel free to tweak the `gliConfig.ini` file in `[your Homecoming folder]\bin\win
 The main thing you're likely to want to change (depending on your keybinds) is the capture keybind. This appears on line 103 of the `gliConfig.ini`.
 
 ### Additional
-You can create a shortcut to HeroOgler.bat and put it somewhere convenient, but please don't change the file structure within the HeroOgler folder, as that will break things.
+You can create a shortcut to `HeroOgler.bat` and put it somewhere convenient, but please don't change the file structure within the HeroOgler folder, as that will break things.
 
 
 When you launch the game with HeroOgler, it enables OGLE, and when the client closes, it disables OGLE. If you ever find your game is crashing unexpectedly, check `[your Homecoming folder]\bin\win64\live` for a file called `OpenGL32.dll`. If it exists, you can rename it `OpenGL32.dll.off`, or run `HeroOgler\lib\bats\disable_ogle.bat`
