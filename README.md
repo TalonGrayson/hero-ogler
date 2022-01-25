@@ -1,4 +1,4 @@
-# HeroOgler
+# HeroOgler - PLEASE READ!
 HeroOgler is an assistant for using OGLE and GLIntercept to capture 3D models of City of Heroes. It has been designed to work with Homecoming, and other flavours of CoX may not work.
 
 OGLE and GLIntercept only work on Windows (as far as I'm aware), so HeroOgler has been designed to run in Windows only.
