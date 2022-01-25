@@ -19,9 +19,7 @@ if not exist "%hc_path%" (
 )
 
 :install_ogle
-if not exist "C:\Program Files\GLInterceptx64_1_3_4\Plugins\OGLE" (
-	call "%hero_ogler_path%\lib\bats\install_ogle.bat"
-)
+call "%hero_ogler_path%\lib\bats\install_ogle.bat"
 
 :prep_ogle
 if not exist "%hc_path%\bin\win64\live\OpenGL32.dll" (
