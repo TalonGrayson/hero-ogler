@@ -15,6 +15,9 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 - Once you're in the game, use **Shift + Ctrl + L** to capture the frame
 - You'll find `ogle.obj` in your Homecoming root folder
 
+A full guide including steps to prep a 3D model for 3D printing, written by [@leeper48](https://forums.homecomingservers.com/profile/54401-leeper48/), can be found here:
+https://forums.homecomingservers.com/topic/34096-3d-printing-city-of-heroes-characters-instructions
+
 ### For the Brave
 Feel free to tweak the `gliConfig.ini` file in `[your Homecoming folder]\bin\win64\live`. If things stop working, you can just delete it. Next time you run HeroOgler, the default `gliConfig.ini` will be reinstated.
 
@@ -34,4 +37,4 @@ When you launch the game with HeroOgler, it enables OGLE, and when the client cl
 
 And of course, every single soul who was involved in the original development of City of Heroes, to those who brought it back to life post-sunset, and to every last player who makes it worth the effort.
 
-#### Donations in the form of purple recipes can be sent to @TalonGrayson 😁
+#### Donations in the form of purple recipes can be sent via in-game email to @TalonGrayson 😁
