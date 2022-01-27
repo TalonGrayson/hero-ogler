@@ -16,7 +16,7 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 - You'll find `ogle.obj` in your Homecoming root folder
 
 A full guide including steps to prep a 3D model for 3D printing, written by [@leeper48](https://forums.homecomingservers.com/profile/54401-leeper48/), can be found here:
-https://forums.homecomingservers.com/topic/34096-3d-printing-city-of-heroes-characters-instructions
+[3D Printing City of Heroes Characters Instructions](https://forums.homecomingservers.com/topic/34096-3d-printing-city-of-heroes-characters-instructions)
 
 ### For the Brave
 Feel free to tweak the `gliConfig.ini` file in `[your Homecoming folder]\bin\win64\live`. If things stop working, you can just delete it. Next time you run HeroOgler, the default `gliConfig.ini` will be reinstated.
