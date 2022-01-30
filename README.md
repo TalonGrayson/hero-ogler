@@ -16,6 +16,8 @@ Once captured, the .obj file can be imported into your 3D modelling software of 
 - Once you're in the game, use **Shift + Ctrl + L** to capture the frame
 - You'll find `ogle.obj` in your Homecoming root folder
 
+Once installed, each time you want to capture a model, just run `HeroOgler.bat` (no admin necessary). You may need to close the usual launcher first; I've had mixed results with that.
+
 A full guide including steps to prep a 3D model for 3D printing, written by [@leeper48](https://forums.homecomingservers.com/profile/54401-leeper48/), can be found here:  
 #### [3D Printing City of Heroes Characters Instructions](https://forums.homecomingservers.com/topic/34096-3d-printing-city-of-heroes-characters-instructions)
 
