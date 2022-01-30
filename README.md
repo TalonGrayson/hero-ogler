@@ -8,6 +8,7 @@ You can use this to capture a model of your toon, of scenery, or of anything els
 Once captured, the .obj file can be imported into your 3D modelling software of choice and fixed up, ready for 3D printing, rigging/animation, etc.
 
 ### How to Use
+- [Download the latest version](https://github.com/TalonGrayson/hero-ogler/archive/refs/heads/main.zip)
 - Extract the zip into a convenient folder. It doesn't really matter where, **so long as the file path has no spaces** (e.g. `C:\City Of Heroes\HeroOgler` will not work, but `C:\CityOfHeroes\HeroOgler` will work).
 - Run HeroOgler.bat - **you'll need to run this as an administrator the first time** (or any time you need to install GLIntercept). This is because the batch file creates an OGLE folder in the appropriate place.
 - Once everything is installed, if you want to capture something, just run `HeroOgler.bat`
